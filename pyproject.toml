@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mock-aiohttp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Create a mock for aiohttp.ClientSession"
 authors = ["fitzypop <32967490+fitzypop@users.noreply.github.com>"]
 license = "MIT"
