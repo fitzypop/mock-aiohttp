@@ -5,7 +5,7 @@ description = "Create a mock for aiohttp.ClientSession"
 authors = ["fitzypop <32967490+fitzypop@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "mock_aiohttp" }]
+packages = [{ include = "mock-aiohttp" }]
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
