@@ -1,5 +1,5 @@
 default:
-    echo 'Hello, world!'
+    echo 'Thanks for cloning!'
 
 test:
     poetry run pytest -rP .
