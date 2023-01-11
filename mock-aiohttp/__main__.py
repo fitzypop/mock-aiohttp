@@ -1,2 +1,2 @@
 if __name__ == "__main__":
-    raise RuntimeError("Should be used in test.")
+    raise RuntimeError("Not a runnable package. Use in testing modules.")
