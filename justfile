@@ -2,4 +2,7 @@ default:
     echo 'Hello, world!'
 
 test:
-    poetry run pytest -rP mock-aiohttp/test_aiohttp_mock.py
+    poetry run pytest -rP .
+
+publish:
+    poetry publish --build

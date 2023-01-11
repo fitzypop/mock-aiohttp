@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "mock-aiohttp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Create a mock for aiohttp.ClientSession"
 authors = ["fitzypop <32967490+fitzypop@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "mock-aiohttp" }]
+repository = "https://github.com/fitzypop/mock-aiohttp"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
