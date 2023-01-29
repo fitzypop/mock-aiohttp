@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        // "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.fixAll": true
+        }
+    },
+    // "ruff.organizeImports": false,
+    "python.formatting.provider": "black",
+    // "python.linting.enabled": true,
+    // "python.linting.flake8Enabled": true,
+}
