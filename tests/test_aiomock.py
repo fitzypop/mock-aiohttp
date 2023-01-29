@@ -11,8 +11,7 @@ import sys
 
 import pytest
 
-
-if sys.version_info < (3,8):
+if sys.version_info < (3, 8):
     pytest.skip(
         "must use 3.8 or greater",
         allow_module_level=True,
@@ -22,6 +21,7 @@ if sys.version_info < (3,8):
 from unittest.mock import AsyncMock, Mock
 
 import aiohttp
+
 
 class ContextManagerMock:
     async def __aenter__(self):
@@ -59,7 +59,7 @@ async def test_async_mock_works(aiomock):
                 method="GET", url="https://catfact.ninja/fact"
             ) as _resp:
                 _resp.raise_for_status()
-                result = await _resp.json()
+                await _resp.json()
 
     session.request.assert_called_once()
     context.request.assert_not_called()
